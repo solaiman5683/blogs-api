@@ -12,7 +12,7 @@ function displayPost(blogs) {
 		const blogBody = document.createElement('div');
 		blogBody.classList.add('blog');
 		blogBody.innerHTML = `
-                <a href="https://picsum.photos/6A00/400?random=${count}" target="_blank">
+                <a href="https://picsum.photos/600/400?random=${count}" target="_blank">
                     <img src="https://picsum.photos/600/400?random=${count}"/>
                 </a>
 				<div class="blog-content">
